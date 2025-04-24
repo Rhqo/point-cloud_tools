@@ -1,0 +1,15 @@
+[project]
+name = "run-fps"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "hdbscan>=0.8.40",
+    "multiprocessing-on-dill>=3.5.0a4",
+    "numpy>=2.2.5",
+    "open3d>=0.19.0",
+    "plyfile>=1.1",
+    "pyransac3d>=0.6.0",
+    "torch>=2.6.0",
+]
